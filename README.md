@@ -12,6 +12,7 @@ bin,
 ##2 prepare dubbo-admin.war
 git clone: https://github.com/alibaba/dubbo.git
 some usful info here.
+
 >cd ~/dubbo
 >mvn clean install -Dmaven.test.skip
 
