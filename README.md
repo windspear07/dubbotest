@@ -20,3 +20,8 @@ some usful info here.
 deploy the war to tomcat ROOT
 访问 /index.html
 ##3 run project code
+
+
+##4 todos
+###(1) dubbo docs
+###(2) zookeeper configs
