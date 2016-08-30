@@ -10,11 +10,11 @@ import java.util.List;
 public class DemoServiceImpl02 implements DemoService {
 
     public String sayHello(String name) {
-        System.out.print("server 2 response.");
+        System.out.println("server 2 response.[sayHello]");
         return "Hello " + name + " 02";
     }
     public List<User> getUsers() {
-        System.out.print("server 2 response.");
+        System.out.println("server 2 response.[getUsers]");
         List<User> list = new ArrayList<User>();
         User u1 = new User();
         u1.setName("wolfman 02");
