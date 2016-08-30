@@ -21,7 +21,7 @@ public class ConsumerMain {
         //
         List<User> list = demoService.getUsers();
             for (User o : list) {
-                System.out.println( o.getName() + "," + o.getSex() + "," + o.getAge() );
+                System.out.println( "result : " + o.getName() + "," + o.getSex() + "," + o.getAge() );
         }
         // System.out.println(demoService.hehe());
         System.in.read();
