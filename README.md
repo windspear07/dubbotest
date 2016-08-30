@@ -14,6 +14,7 @@ git clone: https://github.com/alibaba/dubbo.git
 some usful info here.
 
 >cd ~/dubbo
+
 >mvn clean install -Dmaven.test.skip
 
 deploy the war to tomcat ROOT
