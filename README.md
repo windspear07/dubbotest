@@ -1,12 +1,12 @@
 
-simple example for using dubbo
+#Simple example for using dubbo
 
 ##1 start zookeeper
-下载zookeeper 3.4.8.
-conf目录，
+download zookeeper 3.4.8.
+go to the zookeeper conf directory
 >cp zoo_sample.cfg zoo.cfg
 
-bin,
+to bin,
 >./zkServer.sh start
 
 ##2 prepare dubbo-admin.war
@@ -18,7 +18,7 @@ some usful info here.
 >mvn clean install -Dmaven.test.skip
 
 deploy the war to tomcat ROOT
-访问 /index.html
+visit /index.html
 ##3 run project code
 
 
